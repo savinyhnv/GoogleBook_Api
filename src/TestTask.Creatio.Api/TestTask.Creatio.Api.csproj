@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Edenlab.Common" Version="1.0.0.5" />
+    <PackageReference Include="Edenlab.Core.Web" Version="1.0.0.17" />
+    <PackageReference Include="Edenlab.MessageBroker" Version="1.0.0.6" />
+    <PackageReference Include="Edenlab.NetFramework.Primitives" Version="1.0.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTask.Creatio.Core.Abstractions\TestTask.Creatio.Core.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

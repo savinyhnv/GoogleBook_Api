@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "acd0bee5-868a-4fd9-8612-dfb94c58c309",
+    "Name": "ELDBWebUtils",
+    "ModifiedOnUtc": "\/Date(1535359522000)\/",
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "ELDBWebUtils",
+    "DependsOn": []
+  }
+}

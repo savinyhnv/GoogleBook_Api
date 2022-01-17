@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Edenlab.Core" Version="1.0.0.34" />
+    <PackageReference Include="Edenlab.Core.Web.Abstractions" Version="1.0.0.8" />
+    <PackageReference Include="Edenlab.MessageBroker" Version="1.0.0.6" />
+    <PackageReference Include="FLuentValidation.DependencyInjectionExtensions" Version="10.3.6" />
+    <PackageReference Include="Scrutor" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTask.Creatio.Core\TestTask.Creatio.Core.csproj" />
+    <ProjectReference Include="..\TestTask.Creatio.Integration\TestTask.Creatio.Integration.csproj" />
+  </ItemGroup>
+
+</Project>

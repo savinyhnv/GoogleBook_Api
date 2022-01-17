@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Edenlab.Core" Version="1.0.0.34" />
+    <PackageReference Include="Mediatr" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTask.Creatio.Core.Abstractions\TestTask.Creatio.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\TestTask.Creatio.Inegration.Dto\TestTask.Creatio.Inegration.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

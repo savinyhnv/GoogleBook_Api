@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "15bc329a-889a-4ae2-897e-464868fcc274",
+	"PackageVersion": "7.8.0",
+    "Name": "ELJSTranspiler",
+    "ModifiedOnUtc": "\/Date(1568636623000)\/",
+    "Maintainer": "EdenLab",
+    "DependsOn": []
+  }
+}

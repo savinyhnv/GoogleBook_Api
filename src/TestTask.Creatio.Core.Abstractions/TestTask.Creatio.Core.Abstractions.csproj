@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTask.Creatio.Data\TestTask.Creatio.Data.csproj" />
+    <ProjectReference Include="..\TestTask.Creatio.Inegration.Dto\TestTask.Creatio.Inegration.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
