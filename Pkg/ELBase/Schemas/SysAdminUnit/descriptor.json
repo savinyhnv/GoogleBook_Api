@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "System administration object"
+    "Caption": "System administration object",
+    "DependsOn": []
   }
 }

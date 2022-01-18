@@ -2,7 +2,8 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Объект" />
+			<Item Name="Caption" Value="Автор" />
+			<Item Name="Columns.ELName.Caption" Value="Имя автора" />
 		</Items>
 	</Group>
 </Resources>

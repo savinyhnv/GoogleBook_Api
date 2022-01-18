@@ -2,12 +2,12 @@
   "Descriptor": {
     "UId": "93486146-d2f9-4065-bd43-1eba61498f22",
     "Name": "ELBaseAuthor",
-    "ModifiedOnUtc": "\/Date(1642161362000)\/",
+    "ModifiedOnUtc": "\/Date(1642516577000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "BaseAuthor"
+    "Caption": "Автор"
   }
 }

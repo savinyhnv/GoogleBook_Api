@@ -1,8 +1,8 @@
-= MetaData.Schema.UId "a10f0414-e694-4ce1-988d-cff364ad2d1b"
+= MetaData.Schema.UId "38117874-9418-4ef6-b414-155f175feea5"
 = MetaData.Schema.A2 "ELBookInTag"
 = MetaData.Schema.A5 "4ec0b692-f49b-4fad-a196-013315575778"
 = MetaData.Schema.B8 "7.18.5.1500"
-= MetaData.Schema.EG1.UId "4709f3d4-7bfc-4d3c-b2e5-ff35286412a4"
+= MetaData.Schema.EG1.UId "ee38a51a-2ac0-492f-b1b0-f44426df8c74"
 = MetaData.Schema.EG1.A2 "ELBookInTagEventsProcess"
 = MetaData.Schema.EG1.A5 "4ec0b692-f49b-4fad-a196-013315575778"
 = MetaData.Schema.EG1.B1 []
@@ -19,7 +19,7 @@
 - MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16
 - MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
 - MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
-= MetaData.Schema.D2.["b48bfc16-bdfd-4658-b339-1f02b5a7f342"].S4 "2b563d3a-08c7-49c0-98d2-8ff739fb2dc9"
+= MetaData.Schema.D2.["b48bfc16-bdfd-4658-b339-1f02b5a7f342"].S4 "eff854ad-523c-4e88-a0cf-e47d5d16413d"
 = MetaData.Schema.D2.["a3eb8e36-6d55-4d8d-9c14-102bc79fe48a"].S4 "9eaf07ff-5934-4c01-ba85-2bef89e29a5d"
 = MetaData.Schema.D2.["a3eb8e36-6d55-4d8d-9c14-102bc79fe48a"].E18 "EntityELBookTitle"
 - MetaData.Schema.EG1.B7

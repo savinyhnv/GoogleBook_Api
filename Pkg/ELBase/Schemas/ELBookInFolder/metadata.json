@@ -1,6 +1,6 @@
-= MetaData.Schema.UId "8ee446d0-5f2c-4713-9a40-99477f90a265"
+= MetaData.Schema.UId "466ce73e-106f-40a9-b5a3-3233eb05d217"
 = MetaData.Schema.A2 "ELBookInFolder"
-= MetaData.Schema.EG1.UId "e2cd1592-dbe8-4c16-8c11-84158b0d3f65"
+= MetaData.Schema.EG1.UId "6d725b3a-132a-44de-81be-c339a9e43dc0"
 = MetaData.Schema.EG1.A2 "ELBookInFolderEventsProcess"
 = MetaData.Schema.EG1.B1 []
 = MetaData.Schema.EG1.B3 []
@@ -15,13 +15,13 @@
 - MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16
 - MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16
 - MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
-= MetaData.Schema.D2.["9e46bb69-9788-423c-b7cd-4c624081082d"].S4 "b832ad35-6b04-4be3-884f-23e2012fa29f"
+= MetaData.Schema.D2.["9e46bb69-9788-423c-b7cd-4c624081082d"].S4 "7b265fe5-cc0a-4409-83fe-6abae370d3cd"
 - MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
 + MetaData.Schema.D2 {
-  "UId": "05cd1b8f-e733-4dcd-aed0-46318445d69c",
+  "UId": "b734145f-da46-492e-8dd3-130d8bd0c773",
   "A2": "ELBook",
-  "A3": "8ee446d0-5f2c-4713-9a40-99477f90a265",
-  "A4": "8ee446d0-5f2c-4713-9a40-99477f90a265",
+  "A3": "466ce73e-106f-40a9-b5a3-3233eb05d217",
+  "A4": "466ce73e-106f-40a9-b5a3-3233eb05d217",
   "A5": "4ec0b692-f49b-4fad-a196-013315575778",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "9eaf07ff-5934-4c01-ba85-2bef89e29a5d",
@@ -31,7 +31,7 @@
   "E17": "ELBookId",
   "E18": "ELBookELBookTitle"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","9e46bb69-9788-423c-b7cd-4c624081082d","3fabd836-6a53-4d8d-9069-6df88d9dae1e","05cd1b8f-e733-4dcd-aed0-46318445d69c"]
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","9e46bb69-9788-423c-b7cd-4c624081082d","3fabd836-6a53-4d8d-9069-6df88d9dae1e","b734145f-da46-492e-8dd3-130d8bd0c773"]
 - MetaData.Schema.EG1.B7
 - MetaData.Schema.D1
 - MetaData.Schema.D20

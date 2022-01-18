@@ -8,6 +8,7 @@
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Книги"
+    "Caption": "Book",
+    "DependsOn": []
   }
 }

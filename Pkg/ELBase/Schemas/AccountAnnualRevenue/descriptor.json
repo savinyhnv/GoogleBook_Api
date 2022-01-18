@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Annual revenue of account"
+    "Caption": "Annual revenue of account",
+    "DependsOn": []
   }
 }

@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Number of account employees"
+    "Caption": "Number of account employees",
+    "DependsOn": []
   }
 }

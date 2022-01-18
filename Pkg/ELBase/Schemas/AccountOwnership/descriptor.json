@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Business entity"
+    "Caption": "Business entity",
+    "DependsOn": []
   }
 }

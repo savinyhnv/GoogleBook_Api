@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "0639e579-bd10-489c-817f-0ee3b4355981",
+    "Name": "ELELBookInAuthor9e9fafb0Page",
+    "ModifiedOnUtc": "\/Date(1642515994000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Карточка схемы: \"Автор книги\""
+  }
+}

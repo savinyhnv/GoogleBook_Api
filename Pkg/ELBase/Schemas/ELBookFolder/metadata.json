@@ -1,6 +1,6 @@
-= MetaData.Schema.UId "b832ad35-6b04-4be3-884f-23e2012fa29f"
+= MetaData.Schema.UId "7b265fe5-cc0a-4409-83fe-6abae370d3cd"
 = MetaData.Schema.A2 "ELBookFolder"
-= MetaData.Schema.EG1.UId "ae7b5e39-885d-425f-a46a-8d870d1d2543"
+= MetaData.Schema.EG1.UId "37e513e8-66da-4f55-b105-118ab7e717f4"
 = MetaData.Schema.EG1.A2 "ELBookFolderEventsProcess"
 = MetaData.Schema.EG1.B1 []
 = MetaData.Schema.EG1.B3 []
@@ -19,7 +19,7 @@
 - MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
 - MetaData.Schema.D2.["736c30a7-c0ec-4fa9-b034-2552b319b633"].E16
 - MetaData.Schema.D2.["9e53fd7c-dde4-4502-a64c-b9e34148108b"].E16
-+ MetaData.Schema.D2.["527b9e4e-7dbf-4721-a112-72b423b3365a"].S4 "b832ad35-6b04-4be3-884f-23e2012fa29f"
++ MetaData.Schema.D2.["527b9e4e-7dbf-4721-a112-72b423b3365a"].S4 "7b265fe5-cc0a-4409-83fe-6abae370d3cd"
 + MetaData.Schema.D2.["527b9e4e-7dbf-4721-a112-72b423b3365a"].E17 "ParentId"
 + MetaData.Schema.D2.["527b9e4e-7dbf-4721-a112-72b423b3365a"].E18 "ParentName"
 - MetaData.Schema.D2.["527b9e4e-7dbf-4721-a112-72b423b3365a"].E16

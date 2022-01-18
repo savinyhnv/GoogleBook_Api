@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Role in decision making"
+    "Caption": "Role in decision making",
+    "DependsOn": []
   }
 }

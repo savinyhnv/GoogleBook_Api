@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Base lookup"
+    "Caption": "Base lookup",
+    "DependsOn": []
   }
 }

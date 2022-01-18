@@ -1,9 +1,9 @@
-= MetaData.Schema.UId "2b563d3a-08c7-49c0-98d2-8ff739fb2dc9"
+= MetaData.Schema.UId "eff854ad-523c-4e88-a0cf-e47d5d16413d"
 = MetaData.Schema.A2 "ELBookTag"
 = MetaData.Schema.A5 "4ec0b692-f49b-4fad-a196-013315575778"
 = MetaData.Schema.B6 "69ed36e7-6e79-0eba-9992-406a1abcec89"
 = MetaData.Schema.B8 "7.18.5.1500"
-= MetaData.Schema.EG1.UId "92b30f56-3202-4771-ad7f-59d1b770073b"
+= MetaData.Schema.EG1.UId "e942f591-7964-4c58-a507-f14e73e98731"
 = MetaData.Schema.EG1.A2 "ELBookTagEventsProcess"
 = MetaData.Schema.EG1.A5 "4ec0b692-f49b-4fad-a196-013315575778"
 = MetaData.Schema.EG1.B1 []

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "20128941-8966-41b2-b85b-088988305977",
+    "Name": "ELSchema509c3e69Detail",
+    "ModifiedOnUtc": "\/Date(1642515996000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Авторы\""
+  }
+}

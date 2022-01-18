@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "States/provinces"
+    "Caption": "States/provinces",
+    "DependsOn": []
   }
 }

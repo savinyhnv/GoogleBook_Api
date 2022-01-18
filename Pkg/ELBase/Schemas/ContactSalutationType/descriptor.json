@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Contact title"
+    "Caption": "Contact title",
+    "DependsOn": []
   }
 }

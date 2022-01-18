@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Accounts in external resources"
+    "Caption": "Accounts in external resources",
+    "DependsOn": []
   }
 }

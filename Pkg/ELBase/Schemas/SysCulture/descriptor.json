@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Culture"
+    "Caption": "Culture",
+    "DependsOn": []
   }
 }

@@ -4,21 +4,22 @@ define("ELBook1Page", [], function() {
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
-			"Files": {
-				"schemaName": "FileDetailV2",
-				"entitySchemaName": "ELBookFile",
+			"ELAuthorOfBook": {
+				"schemaName": "ELSchema509c3e69Detail",
+				"entitySchemaName": "ELBookInAuthor",
 				"filter": {
-					"masterColumn": "Id",
-					"detailColumn": "ELBook"
+					"detailColumn": "ELBook",
+					"masterColumn": "Id"
 				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
+		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "ELBookTitleedf0fd24-089b-4d1a-a771-e4d29b6cf06b",
+				"name": "ELBookTitle9169e45e-19f9-44a5-a37c-10fbaedde412",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -35,64 +36,34 @@ define("ELBook1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"parentName": "Tabs",
-				"propertyName": "tabs",
-				"index": 0,
 				"name": "NotesAndFilesTab",
 				"values": {
 					"caption": {
 						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
 					},
-					"items": []
-				}
+					"items": [],
+					"order": 0
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 0
 			},
 			{
 				"operation": "insert",
+				"name": "ELAuthorOfBook",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
 				"parentName": "NotesAndFilesTab",
 				"propertyName": "items",
-				"name": "Files",
-				"values": {
-					"itemType": Terrasoft.ViewItemType.DETAIL
-				}
+				"index": 0
 			},
 			{
-				"operation": "insert",
-				"parentName": "NotesAndFilesTab",
-				"propertyName": "items",
-				"name": "NotesControlGroup",
+				"operation": "merge",
+				"name": "ESNTab",
 				"values": {
-					"itemType": Terrasoft.ViewItemType.CONTROL_GROUP,
-					"caption": {
-						"bindTo": "Resources.Strings.NotesGroupCaption"
-					},
-					"items": []
-				}
-			},
-			{
-				"operation": "insert",
-				"parentName": "NotesControlGroup",
-				"propertyName": "items",
-				"name": "Notes",
-				"values": {
-					"bindTo": "ELNotes",
-					"dataValueType": Terrasoft.DataValueType.TEXT,
-					"contentType": Terrasoft.ContentType.RICH_TEXT,
-					"layout": {
-						"column": 0,
-						"row": 0,
-						"colSpan": 24
-					},
-					"labelConfig": {
-						"visible": false
-					},
-					"controlConfig": {
-						"imageLoaded": {
-							"bindTo": "insertImagesToNotes"
-						},
-						"images": {
-							"bindTo": "NotesImagesCollection"
-						}
-					}
+					"order": 1
 				}
 			}
 		]/**SCHEMA_DIFF*/

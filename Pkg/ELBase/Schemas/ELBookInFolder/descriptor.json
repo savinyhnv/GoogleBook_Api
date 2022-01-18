@@ -1,8 +1,8 @@
 ﻿{
   "Descriptor": {
-    "UId": "8ee446d0-5f2c-4713-9a40-99477f90a265",
+    "UId": "466ce73e-106f-40a9-b5a3-3233eb05d217",
     "Name": "ELBookInFolder",
-    "ModifiedOnUtc": "\/Date(1642425879000)\/",
+    "ModifiedOnUtc": "\/Date(1642515817000)\/",
     "Parent": {
       "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
       "Name": "BaseItemInFolder"

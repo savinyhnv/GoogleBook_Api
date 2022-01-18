@@ -2,13 +2,14 @@
   "Descriptor": {
     "UId": "316d1421-5963-456a-9604-12f96b704e55",
     "Name": "CommunicationType",
-    "ModifiedOnUtc": "\/Date(1641911112000)\/",
+    "ModifiedOnUtc": "\/Date(1641911113000)\/",
     "Parent": {
       "UId": "d846cb4f-f18d-469e-83ff-e961f3fba873",
       "Name": "CommunicationType"
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Communication option type"
+    "Caption": "Communication option type",
+    "DependsOn": []
   }
 }

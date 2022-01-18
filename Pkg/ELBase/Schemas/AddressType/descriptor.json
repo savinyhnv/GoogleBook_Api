@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Address type"
+    "Caption": "Address type",
+    "DependsOn": []
   }
 }

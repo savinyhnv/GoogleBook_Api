@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Country"
+    "Caption": "Country",
+    "DependsOn": []
   }
 }

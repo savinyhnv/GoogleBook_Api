@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Книги&quot;" />
+			<Item Name="LocalizableStrings.ELSchema509c3e69Detail47794b0aDetailCaptionOnPage.Value" Value="Авторы" />
 		</Items>
 	</Group>
 </Resources>
