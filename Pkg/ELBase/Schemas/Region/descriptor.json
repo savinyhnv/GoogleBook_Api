@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c30ff344-c05c-4b72-b632-35f30c8b8a87",
+    "Name": "Region",
+    "ModifiedOnUtc": "\/Date(1641910726000)\/",
+    "Parent": {
+      "UId": "fa4eb497-e6a3-4f8c-8568-5df4bd2a8b91",
+      "Name": "Region"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "States/provinces"
+  }
+}

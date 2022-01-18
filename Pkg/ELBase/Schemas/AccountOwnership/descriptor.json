@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a27a3da5-de80-4280-844b-31f0c4c9fdfd",
+    "Name": "AccountOwnership",
+    "ModifiedOnUtc": "\/Date(1641910860000)\/",
+    "Parent": {
+      "UId": "ce243c2c-b7d3-4dc4-b474-ab24c677801b",
+      "Name": "AccountOwnership"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Business entity"
+  }
+}

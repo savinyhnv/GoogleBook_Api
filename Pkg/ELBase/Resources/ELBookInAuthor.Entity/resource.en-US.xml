@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="BookInAuthor" />
+			<Item Name="Columns.ELBaseAuthor.Caption" Value="BaseAuthor" />
+			<Item Name="Columns.ELBook.Caption" Value="Book" />
+		</Items>
+	</Group>
+</Resources>

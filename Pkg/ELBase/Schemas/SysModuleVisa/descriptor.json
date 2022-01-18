@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0eaf7a5b-5b84-4920-9f9a-c4611b663a2f",
+    "Name": "SysModuleVisa",
+    "ModifiedOnUtc": "\/Date(1641911409000)\/",
+    "Parent": {
+      "UId": "1980906b-3a10-489c-b67c-30d74100b8cb",
+      "Name": "SysModuleVisa"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Section approval settings"
+  }
+}

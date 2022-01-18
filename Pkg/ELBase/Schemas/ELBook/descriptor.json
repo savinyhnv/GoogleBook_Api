@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9eaf07ff-5934-4c01-ba85-2bef89e29a5d",
+    "Name": "ELBook",
+    "ModifiedOnUtc": "\/Date(1642425874000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Книги"
+  }
+}

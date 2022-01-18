@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7005ef05-12b9-4b58-b2a0-95cf10dcf1d8",
+    "Name": "SysModuleEntity",
+    "ModifiedOnUtc": "\/Date(1641911375000)\/",
+    "Parent": {
+      "UId": "9c762665-90ad-497b-ac4b-45bb729630a1",
+      "Name": "SysModuleEntity"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Section object"
+  }
+}

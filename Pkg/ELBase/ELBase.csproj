@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+        <ProjectGuid>{3a725517-1819-b8c6-9c27-183ad107b6ca}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <TargetFramework>net472</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <Optimize>false</Optimize>
+        <OutputPath>Files\Bin\</OutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <Optimize>true</Optimize>
+        <OutputPath>Files\Bin\</OutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove="Assemblies\**" />
+        <Compile Remove="Data\**" />
+        <Compile Remove="Resources\**" />
+        <Compile Remove="Schemas\**" />
+        <Compile Remove="SqlScripts\**" />
+        <EmbeddedResource Remove="Assemblies\**" />
+        <EmbeddedResource Remove="Data\**" />
+        <EmbeddedResource Remove="Resources\**" />
+        <EmbeddedResource Remove="Schemas\**" />
+        <EmbeddedResource Remove="SqlScripts\**" />
+        <None Remove="Assemblies\**" />
+        <None Remove="Data\**" />
+        <None Remove="Resources\**" />
+        <None Remove="Schemas\**" />
+        <None Remove="SqlScripts\**" />
+    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Wcf" Version="6.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Edenlab.Common" Version="1.0.0.5" />
+    <PackageReference Include="Edenlab.Core" Version="1.0.0.34" />
+    <PackageReference Include="Edenlab.Core.Caching" Version="1.0.0.8" />
+    <PackageReference Include="Edenlab.Core.Db" Version="1.0.0.3" />
+    <PackageReference Include="Edenlab.Core.Entities" Version="1.0.0.37" />
+    <PackageReference Include="Edenlab.Core.Web" Version="1.0.0.17" />
+    <PackageReference Include="Edenlab.Identities" Version="1.0.0.9" />
+    <PackageReference Include="Edenlab.NetFramework.Primitives" Version="1.0.0.6" />
+    <PackageReference Include="MediatR.Extensions.MIcrosoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TestTask.Creatio.Api\TestTask.Creatio.Api.csproj" />
+    <ProjectReference Include="..\..\src\TestTask.Creatio.Core.Abstractions\TestTask.Creatio.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\TestTask.Creatio.Core\TestTask.Creatio.Core.csproj" />
+    <ProjectReference Include="..\..\src\TestTask.Creatio.Extensions.DependencyInjection\TestTask.Creatio.Extensions.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\src\TestTask.Creatio.Integration\TestTask.Creatio.Integration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Terrasoft.Configuration">
+      <HintPath>..\..\bin\Terrasoft.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

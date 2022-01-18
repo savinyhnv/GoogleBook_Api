@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b3075176-5ee5-4604-9bc3-2874bdfa48ce",
+    "Name": "SocialAccount",
+    "ModifiedOnUtc": "\/Date(1641910766000)\/",
+    "Parent": {
+      "UId": "76e3d8e8-6c6b-48b5-9f43-3b361c368bff",
+      "Name": "SocialAccount"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Accounts in external resources"
+  }
+}

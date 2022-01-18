@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "0b0ed973-0c72-4130-8d7f-8dd73f18d7de",
+    "Name": "ELBookFile",
+    "ModifiedOnUtc": "\/Date(1642425876000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Книги"
+  }
+}

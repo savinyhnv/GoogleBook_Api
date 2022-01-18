@@ -1,0 +1,20 @@
+﻿{
+  "Descriptor": {
+    "UId": "69ed36e7-6e79-0eba-9992-406a1abcec89",
+    "Name": "ELBase",
+    "ModifiedOnUtc": "\/Date(1640089423000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "b7ab704f-f648-43e4-8829-13d3a0461712",
+        "PackageVersion": "7.12.0",
+        "Name": "JSUtils"
+      },
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}

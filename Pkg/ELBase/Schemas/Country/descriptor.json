@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ad0b20f4-21ad-48a4-8cce-f220a443b667",
+    "Name": "Country",
+    "ModifiedOnUtc": "\/Date(1641910741000)\/",
+    "Parent": {
+      "UId": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+      "Name": "Country"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Country"
+  }
+}

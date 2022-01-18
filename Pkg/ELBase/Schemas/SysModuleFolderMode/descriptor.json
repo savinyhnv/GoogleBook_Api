@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0964337a-2116-4daa-b74f-1d43d92d2de6",
+    "Name": "SysModuleFolderMode",
+    "ModifiedOnUtc": "\/Date(1641911392000)\/",
+    "Parent": {
+      "UId": "02a6ed88-f913-47b6-bf0a-80646634f47b",
+      "Name": "SysModuleFolderMode"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Section folders mode"
+  }
+}

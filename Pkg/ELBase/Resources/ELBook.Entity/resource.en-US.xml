@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Book" />
+			<Item Name="Columns.ELBookPageCount.Caption" Value="PageCount" />
+			<Item Name="Columns.ELBookPublisher.Caption" Value="Publisher" />
+			<Item Name="Columns.ELBookSubtitle.Caption" Value="Subtitle" />
+			<Item Name="Columns.ELBookTitle.Caption" Value="Title" />
+			<Item Name="Columns.ELGoogleIdentifyer.Caption" Value="GoogleIdentifyer" />
+			<Item Name="Columns.ELIsFreeBook.Caption" Value="IsFreeBook" />
+			<Item Name="Columns.ELNotes.Caption" Value="Заметки" />
+		</Items>
+	</Group>
+</Resources>

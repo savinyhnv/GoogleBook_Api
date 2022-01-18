@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9446135a-75a0-4893-829d-f037345ccd21",
+    "Name": "SysLanguage",
+    "ModifiedOnUtc": "\/Date(1641910795000)\/",
+    "Parent": {
+      "UId": "2f96cb61-7e14-41e5-980a-bcb856edab51",
+      "Name": "SysLanguage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Language"
+  }
+}

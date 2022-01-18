@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d743c1b1-e817-4407-9450-2fde207ad088",
+    "Name": "ELBook1Page",
+    "ModifiedOnUtc": "\/Date(1642425872000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Книги\""
+  }
+}

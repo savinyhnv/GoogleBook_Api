@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "efdc4bf4-caa2-46ff-9e73-a9b386c83c2b",
+    "Name": "BaseEntityNotes",
+    "ModifiedOnUtc": "\/Date(1641911096000)\/",
+    "Parent": {
+      "UId": "a22b1e79-7fc1-4fe5-aba0-538e9df96f17",
+      "Name": "BaseEntityNotes"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Base object with notes"
+  }
+}

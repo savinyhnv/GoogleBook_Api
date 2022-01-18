@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "bb36e080-6ae1-4ae7-b77b-18b9e3ac985d",
+    "Name": "ELBookSectionInFolder",
+    "ModifiedOnUtc": "\/Date(1642425068000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Книги в группе"
+  }
+}

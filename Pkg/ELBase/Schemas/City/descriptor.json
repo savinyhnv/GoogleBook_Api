@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "621851dc-955a-4710-b399-19f286d8edc5",
+    "Name": "City",
+    "ModifiedOnUtc": "\/Date(1641910714000)\/",
+    "Parent": {
+      "UId": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+      "Name": "City"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "City"
+  }
+}

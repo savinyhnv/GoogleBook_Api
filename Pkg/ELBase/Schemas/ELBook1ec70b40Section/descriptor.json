@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d4e1cc3b-890e-4be1-9662-19ffd0c1dd1a",
+    "Name": "ELBook1ec70b40Section",
+    "ModifiedOnUtc": "\/Date(1642425870000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Книги\""
+  }
+}

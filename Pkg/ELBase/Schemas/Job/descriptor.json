@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f4e70411-e391-479d-96e1-5806b99be3d5",
+    "Name": "Job",
+    "ModifiedOnUtc": "\/Date(1641910676000)\/",
+    "Parent": {
+      "UId": "c82ab6f0-0e36-4376-9ab3-c583d714b7b6",
+      "Name": "Job"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Job title"
+  }
+}

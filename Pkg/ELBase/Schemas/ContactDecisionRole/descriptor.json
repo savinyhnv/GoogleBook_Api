@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6272375b-22b4-4939-a2a3-74950c4053d5",
+    "Name": "ContactDecisionRole",
+    "ModifiedOnUtc": "\/Date(1641910646000)\/",
+    "Parent": {
+      "UId": "54aa771f-fba6-4d76-9239-bff3f00ee3e5",
+      "Name": "ContactDecisionRole"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Role in decision making"
+  }
+}

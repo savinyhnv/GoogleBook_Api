@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6863f1fe-8296-4efd-9b5c-6845b8a3144b",
+    "Name": "SysImage",
+    "ModifiedOnUtc": "\/Date(1641910778000)\/",
+    "Parent": {
+      "UId": "93986bfe-2dbd-46bc-9bf9-d03dfefbf3b8",
+      "Name": "SysImage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Image"
+  }
+}

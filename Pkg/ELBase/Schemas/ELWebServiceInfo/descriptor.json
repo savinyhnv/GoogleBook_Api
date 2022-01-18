@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d4a0b10a-ae85-4ea3-aff6-1543d0c02a35",
+    "Name": "ELWebServiceInfo",
+    "ModifiedOnUtc": "\/Date(1641910162000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "WebServiceInfo"
+  }
+}

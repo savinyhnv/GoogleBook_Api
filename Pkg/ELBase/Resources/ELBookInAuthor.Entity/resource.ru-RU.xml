@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Автор книги" />
+			<Item Name="Columns.ELBaseAuthor.Caption" Value="Автор" />
+			<Item Name="Columns.ELBook.Caption" Value="Книга" />
+		</Items>
+	</Group>
+</Resources>

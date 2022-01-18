@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "dfea208e-0b6f-4f9b-b783-6a02a0e811cf",
+    "Name": "BaseImageLookup",
+    "ModifiedOnUtc": "\/Date(1641911162000)\/",
+    "Parent": {
+      "UId": "b4a781bd-bacd-4ba1-a16b-48c09a21f087",
+      "Name": "BaseImageLookup"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Base lookup with image"
+  }
+}

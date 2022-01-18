@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ce2cf4b2-7996-400d-80b7-4699bcac459b",
+    "Name": "AccountIndustry",
+    "ModifiedOnUtc": "\/Date(1641910871000)\/",
+    "Parent": {
+      "UId": "95de3d3b-b909-40d9-a3fa-e80d38ec208e",
+      "Name": "AccountIndustry"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Industry"
+  }
+}

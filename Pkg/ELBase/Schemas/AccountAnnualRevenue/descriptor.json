@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7a4c0011-ba5c-495c-ae63-03185602d0db",
+    "Name": "AccountAnnualRevenue",
+    "ModifiedOnUtc": "\/Date(1641910947000)\/",
+    "Parent": {
+      "UId": "24d201f8-5f03-47f3-9e7b-1c967c11d7b9",
+      "Name": "AccountAnnualRevenue"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Annual revenue of account"
+  }
+}

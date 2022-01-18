@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f87cea48-116c-4bd0-a49f-d020a011e2a6",
+    "Name": "SysCulture",
+    "ModifiedOnUtc": "\/Date(1641911303000)\/",
+    "Parent": {
+      "UId": "ffc193e1-04bc-472b-bdc0-3333d1df84e4",
+      "Name": "SysCulture"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Culture"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2b563d3a-08c7-49c0-98d2-8ff739fb2dc9",
+    "Name": "ELBookTag",
+    "ModifiedOnUtc": "\/Date(1642425880000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Книги"
+  }
+}

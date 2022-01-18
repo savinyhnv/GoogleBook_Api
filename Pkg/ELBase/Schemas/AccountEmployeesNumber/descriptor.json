@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "91745beb-b794-43e0-8403-ba117e2308ac",
+    "Name": "AccountEmployeesNumber",
+    "ModifiedOnUtc": "\/Date(1641910931000)\/",
+    "Parent": {
+      "UId": "ccf7d7bf-b4b7-4eb3-a191-3f47d6c4ee8d",
+      "Name": "AccountEmployeesNumber"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Number of account employees"
+  }
+}
