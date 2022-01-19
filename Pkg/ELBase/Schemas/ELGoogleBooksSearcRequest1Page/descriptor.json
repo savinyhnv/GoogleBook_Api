@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "8833d5ca-17e7-499e-9aea-28e945912c0d",
+    "Name": "ELGoogleBooksSearcRequest1Page",
+    "ModifiedOnUtc": "\/Date(1642582993000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Поисковый запрос\""
+  }
+}

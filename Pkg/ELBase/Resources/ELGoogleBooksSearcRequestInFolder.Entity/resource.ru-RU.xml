@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Поисковый запрос в группе" />
+			<Item Name="Columns.ELGoogleBooksSearcRequest.Caption" Value="Поисковый запрос" />
+			<Item Name="Columns.Folder.Caption" Value="Группа Поисковый запрос" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

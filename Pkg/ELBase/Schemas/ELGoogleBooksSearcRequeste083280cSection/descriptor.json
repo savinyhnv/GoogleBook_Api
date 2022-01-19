@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4324ed67-a5d9-4358-b7f3-a948599bfde2",
+    "Name": "ELGoogleBooksSearcRequeste083280cSection",
+    "ModifiedOnUtc": "\/Date(1642582991000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Поисковый запрос\""
+  }
+}

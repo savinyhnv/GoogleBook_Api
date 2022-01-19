@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TestTask.Creatio.Inegration.Dto
+﻿namespace TestTask.Creatio.Inegration.Dto
 {
     public class WebServiceInfoConstants
     {

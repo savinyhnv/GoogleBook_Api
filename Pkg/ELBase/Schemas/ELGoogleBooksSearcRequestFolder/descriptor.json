@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d87306c4-7bf0-4d69-83b7-8e9234fc59df",
+    "Name": "ELGoogleBooksSearcRequestFolder",
+    "ModifiedOnUtc": "\/Date(1642582999000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Поисковый запрос"
+  }
+}

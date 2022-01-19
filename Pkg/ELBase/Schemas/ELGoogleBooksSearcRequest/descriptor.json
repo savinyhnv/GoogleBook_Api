@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+    "Name": "ELGoogleBooksSearcRequest",
+    "ModifiedOnUtc": "\/Date(1642582995000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Поисковый запрос"
+  }
+}

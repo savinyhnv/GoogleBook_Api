@@ -1,6 +1,6 @@
 ﻿using EdenLab.FluentApi.Models;
-using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using TestTask.Creatio.Core.Abstractions.Integration;
 using TestTask.Creatio.Core.Abstractions.Repositories;
@@ -20,8 +20,12 @@ namespace TestTask.Creatio.Core.Services
         private readonly IAuthorService _authorService;
         private readonly IPublisherService _publisherService;
 
-        public GoogleBookService(IGoogleBooksClient googleBooksClient, IBookRepository bookRepository,
-            IBookInAuthorRepository bookInAuthorRepository, IAuthorService authorService, IPublisherService publisherService)
+        public GoogleBookService(
+            IGoogleBooksClient googleBooksClient, 
+            IBookRepository bookRepository,
+            IBookInAuthorRepository bookInAuthorRepository, 
+            IAuthorService authorService, 
+            IPublisherService publisherService)
         {
             this._googleBooksClient = googleBooksClient;
             this._bookRepository = bookRepository;
@@ -30,9 +34,9 @@ namespace TestTask.Creatio.Core.Services
             this._publisherService = publisherService;
         }
 
-        public async Task<IServiceResponse> FillDbWithBooksAsync(string searchKeyword)
+        public async Task<IServiceResponse> EnrichDbWithBooksAsync(string searchKeyword)
         {
-            var response = await this._googleBooksClient.GetBooks(searchKeyword);
+            var response = await _googleBooksClient.GetBooks(searchKeyword);
 
             if(response != null && response.Data.Items.Count > 0) 
                 await ProcessResponseAsync(response);
@@ -40,60 +44,60 @@ namespace TestTask.Creatio.Core.Services
             return new GoogleBooksServiceResponse(response);
         }
 
-        public async Task ProcessResponseAsync(IHttpResponse<GoogleBooksClientResponse> response)
+        private async Task ProcessResponseAsync(IHttpResponse<GoogleBooksClientResponse> response)
         {
-            foreach (var gBook in response.Data.Items)
+            foreach (var gBook in response.Data.Items.Where(gBook => _bookRepository.IsExistsByGoogleId(gBook.Id)))
             {
-                if (!_bookRepository.IsExistsByGoogleId(gBook.Id))
-                    await ProcessBook(gBook);
+                await ProcessBookAsync(gBook);
             }
         }
 
-        public async Task ProcessBook(GoogleBook gBook)
+        private async Task ProcessBookAsync(GoogleBook gBook)
         {
-            var publisher = !String.IsNullOrEmpty(gBook.VolumeInfo.Publisher) ? BuildPublisher(gBook.VolumeInfo.Publisher) : null;
+            var publisher = !string.IsNullOrEmpty(gBook.VolumeInfo.Publisher) ? await BuildPublisher(gBook.VolumeInfo.Publisher) : null;
             var elBook = BuildBook(gBook, publisher);
-            this._bookRepository.Add(elBook);
-            this._bookRepository.Save();
+            _bookRepository.Add(elBook);
+            await _bookRepository.SaveAsync();
 
-            if (gBook.VolumeInfo.Authors == null || gBook.VolumeInfo.Authors.Count == 0)
+            if (gBook.VolumeInfo.Authors is null || gBook.VolumeInfo.Authors.Count is 0)
                 return;
 
-            var authors = BuildAuthors(gBook.VolumeInfo.Authors);
-
+            var authors = await BuildAuthorsAsync(gBook.VolumeInfo.Authors);
             var booksInAuthors = BuildBooksInAuthors(elBook, authors);
             await SaveBooksInAuthorsAsync(booksInAuthors);
         }
 
-        private List<ELBaseAuthor> BuildAuthors(List<string> authorsName)
+        private async Task<List<ELBaseAuthor>> BuildAuthorsAsync(List<string> authorsName)
         {
             var authors = new List<ELBaseAuthor>();
 
             foreach(var authorName in authorsName)
             {
-                var isAuthorExists = _authorService.IsAuthorExistsByName(authorName);
-                var author = isAuthorExists ? _authorService.GetAuthorByName(authorName) : new ELBaseAuthor {ELName = authorName};
+                var isAuthorExists = await _authorService.IsAuthorExistsByNameAsync(authorName);
+                var author = isAuthorExists ? await _authorService.GetAuthorByNameAsync(authorName) : new ELBaseAuthor {ELName = authorName};
                 if(!isAuthorExists)
-                    _authorService.AddNewAuthor(author);
+                    await _authorService.AddNewAuthorAsync(author);
 
                 authors.Add(author);
             }
 
             return authors;
         }
-        private Account BuildPublisher(string publisherName)
+
+        private async Task<Account> BuildPublisher(string publisherName)
         {
-            var isPublisherExists = _publisherService.IsPublisherExistsByName(publisherName);
+            var isPublisherExists = await _publisherService.IsPublisherExistsByNameAsync(publisherName);
 
             if(!isPublisherExists)
             {
                 var publisher = new Account { Name = publisherName };
-                this._publisherService.AddNewPublisher(publisher);
+                await this._publisherService.AddNewPublisherAsync(publisher);
                 return publisher;
             }
 
-            return _publisherService.GetPublisherByName(publisherName);
+            return await _publisherService.GetPublisherByNameAsync(publisherName);
         }
+
         private ELBook BuildBook(GoogleBook gBook, Account publisher)
         {
             var book = new ELBook()
@@ -108,6 +112,7 @@ namespace TestTask.Creatio.Core.Services
 
             return book;
         }
+
         private List<ELBookInAuthor> BuildBooksInAuthors(ELBook book, List<ELBaseAuthor> authors)
         {
             var bookInAuthorList = new List<ELBookInAuthor>();
@@ -123,6 +128,7 @@ namespace TestTask.Creatio.Core.Services
 
             return bookInAuthorList;
         }
+
         private async Task SaveBooksInAuthorsAsync(List<ELBookInAuthor> booksInAuthors)
         {
             foreach(var bookInAuthor in booksInAuthors)

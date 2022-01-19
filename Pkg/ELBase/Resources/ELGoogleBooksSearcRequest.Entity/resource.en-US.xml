@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Object" />
+			<Item Name="Columns.ELIsSuccessful.Caption" Value="Успех" />
+			<Item Name="Columns.ELNotes.Caption" Value="Заметки" />
+			<Item Name="Columns.ELSearchKeyword.Caption" Value="Поисковый запрос" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

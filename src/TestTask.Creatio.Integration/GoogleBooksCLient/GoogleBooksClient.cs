@@ -1,10 +1,7 @@
 ﻿using EdenLab.FluentApi;
 using EdenLab.FluentApi.Models;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using TestTask.Creatio.Core.Abstractions.Integration;
 using TestTask.Creatio.Inegration.Dto;
@@ -23,14 +20,11 @@ namespace TestTask.Creatio.Integration.GoogleBooksCLient
 
         public async Task<IHttpResponse<GoogleBooksClientResponse>> GetBooks(string searchKeyWord)
         {
-            var request = new HttpRequestMessage();
-            var result = await WebServiceInfoConstants.GoogleBooksApi.GetBooks
+            return await WebServiceInfoConstants.GoogleBooksApi.GetBooks
                 .Configure(opt => opt.Logger = _logger)
                 .SetRouteParameter("keyword", searchKeyWord)
                 .Get()
                 .AsJsonAsync<GoogleBooksClientResponse>();
-
-            return result;
         }
     }
 }

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b9661739-1fa6-4312-827d-bac29f27278a",
+    "Name": "ELGoogleBooksSearcRequestFile",
+    "ModifiedOnUtc": "\/Date(1642582997000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Поисковый запрос"
+  }
+}

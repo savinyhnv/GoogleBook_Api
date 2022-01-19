@@ -1,8 +1,5 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 
 namespace TestTask.Creatio.Inegration.Dto.GoogleBooks
 {

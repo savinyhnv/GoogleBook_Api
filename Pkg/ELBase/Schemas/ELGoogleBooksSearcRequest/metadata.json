@@ -1,0 +1,52 @@
+= MetaData.Schema.UId "b4c92c7e-9825-44f3-a557-da9d7107e15b"
+= MetaData.Schema.A2 "ELGoogleBooksSearcRequest"
+= MetaData.Schema.EG1.UId "a2d52ef9-a9a6-4891-915a-eb8d7f6efd6c"
+= MetaData.Schema.EG1.A2 "ELEntity_a0c46e3EventsProcess"
+= MetaData.Schema.EG1.BK8 "2566cfb2-24e4-4938-a6fd-757f897d252b"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "e892c808-cf3d-3cd3-e968-155756c67cd6"
+- MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16
+- MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16
+- MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16
+- MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16
+- MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
+- MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
++ MetaData.Schema.D2 {
+  "UId": "3abffc43-1bcd-bc02-19ff-358760402548",
+  "A2": "ELIsSuccessful",
+  "A3": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A4": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A5": "4ec0b692-f49b-4fad-a196-013315575778",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
++ MetaData.Schema.D2 {
+  "UId": "e892c808-cf3d-3cd3-e968-155756c67cd6",
+  "A2": "ELSearchKeyword",
+  "A3": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A4": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A5": "4ec0b692-f49b-4fad-a196-013315575778",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+}
++ MetaData.Schema.D2 {
+  "UId": "dfca0f33-a5c0-45af-8d2f-871ec11302e6",
+  "A2": "ELNotes",
+  "A3": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A4": "b4c92c7e-9825-44f3-a557-da9d7107e15b",
+  "A5": "4ec0b692-f49b-4fad-a196-013315575778",
+  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+  "E5": false
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","3abffc43-1bcd-bc02-19ff-358760402548","e892c808-cf3d-3cd3-e968-155756c67cd6","dfca0f33-a5c0-45af-8d2f-871ec11302e6"]
+= MetaData.Schema.D20.A2 "ELGoogleBooksSearcRequestEvents"
+- MetaData.Schema.EG1.B7
+- MetaData.Schema.D1
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

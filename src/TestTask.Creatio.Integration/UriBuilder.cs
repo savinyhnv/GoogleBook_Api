@@ -1,8 +1,6 @@
 ﻿using EdenLab.Core.Entities;
 using EdenLab.FluentApi.Configuration;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using TestTask.Creatio.Data.Entities;
 

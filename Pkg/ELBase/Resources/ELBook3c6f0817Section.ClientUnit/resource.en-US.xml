@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Схема раздела: &quot;Книги&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Книги" />
+			<Item Name="LocalizableStrings.DownloadGoogleBooks.Value" Value="Добавить книги" />
 		</Items>
 	</Group>
 </Resources>

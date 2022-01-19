@@ -1,11 +1,12 @@
-﻿using TestTask.Creatio.Data.Entities;
+﻿using System.Threading.Tasks;
+using TestTask.Creatio.Data.Entities;
 
 namespace TestTask.Creatio.Core.Abstractions.Services
 {
     public interface IPublisherService
     {
-        bool IsPublisherExistsByName(string name);
-        Account GetPublisherByName(string name);
-        void AddNewPublisher(Account publisher);
+        Task<bool> IsPublisherExistsByNameAsync(string name);
+        Task<Account> GetPublisherByNameAsync(string name);
+        Task AddNewPublisherAsync(Account publisher);
     }
 }

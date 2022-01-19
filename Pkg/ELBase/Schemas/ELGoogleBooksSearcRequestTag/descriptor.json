@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "54082b42-8e68-4ff6-a705-e9d31cc404ac",
+    "Name": "ELGoogleBooksSearcRequestTag",
+    "ModifiedOnUtc": "\/Date(1642583002000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Поисковый запрос"
+  }
+}
