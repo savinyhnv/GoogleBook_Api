@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EdenLab.Core.Web" Version="1.0.0.21" />
+    <PackageReference Include="EdenLab.FluentApi" Version="1.0.0.11" />
+    <PackageReference Include="EdenLab.UnitTestsSdk" Version="1.0.0.6" />
+    <PackageReference Include="FluentAssertions" Version="6.4.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Terrasoft.Services">
+      <HintPath>..\..\..\..\bin\Terrasoft.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Terrasoft.TestFramework">
+      <HintPath>..\..\..\..\bin\Terrasoft.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="TestTask.Creatio.Api">
+      <HintPath>..\..\..\src\TestTask.Creatio.Api\bin\Debug\net472\TestTask.Creatio.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="TestTask.Creatio.Core">
+      <HintPath>..\..\..\src\TestTask.Creatio.Core\bin\Debug\netstandard2.0\TestTask.Creatio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="TestTask.Creatio.Core.Abstractions">
+      <HintPath>..\..\..\src\TestTask.Creatio.Core.Abstractions\bin\Debug\netstandard2.0\TestTask.Creatio.Core.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="TestTask.Creatio.Inegration.Dto">
+      <HintPath>..\..\..\src\TestTask.Creatio.Inegration.Dto\bin\Debug\netstandard2.0\TestTask.Creatio.Inegration.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="TestTask.Creatio.Integration">
+      <HintPath>..\..\..\src\TestTask.Creatio.Integration\bin\Debug\netstandard2.0\TestTask.Creatio.Integration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

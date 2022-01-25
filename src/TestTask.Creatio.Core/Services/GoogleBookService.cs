@@ -37,19 +37,25 @@ namespace TestTask.Creatio.Core.Services
         public async Task<IServiceResponse> EnrichDbWithBooksAsync(string searchKeyword)
         {
             var response = await _googleBooksClient.GetBooks(searchKeyword);
+            var processedBooksCounter = 0;
 
             if(response != null && response.Data.Items.Count > 0) 
-                await ProcessResponseAsync(response);
+                processedBooksCounter = await ProcessResponseAsync(response);
 
-            return new GoogleBooksServiceResponse(response);
+            return new GoogleBooksServiceResponse(response, processedBooksCounter);
         }
 
-        private async Task ProcessResponseAsync(IHttpResponse<GoogleBooksClientResponse> response)
+        private async Task<int> ProcessResponseAsync(IHttpResponse<GoogleBooksClientResponse> response)
         {
-            foreach (var gBook in response.Data.Items.Where(gBook => _bookRepository.IsExistsByGoogleId(gBook.Id)))
+            var processedBooksCounter = 0;
+
+            foreach (var gBook in response.Data.Items.Where(gBook => _bookRepository.IsExistsByGoogleId(gBook.Id) is false))
             {
                 await ProcessBookAsync(gBook);
+                processedBooksCounter++;
             }
+
+            return processedBooksCounter;
         }
 
         private async Task ProcessBookAsync(GoogleBook gBook)

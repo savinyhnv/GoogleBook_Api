@@ -20,7 +20,7 @@ namespace TestTask.Creatio.Api.Controllers
         [Route("google/enrich")]
         public async Task<IHttpActionResult> EnrichDbWithBooks([FromBody] GetBookRequest request)
         {
-            var result = await _bookService.EnrichDbWithBooksAsync(request.SearchKeyword);
+            var result = await _bookService.EnrichDbWithBooksAsync(request.SearchKeyword);            
             return Ok(result);
         }
     }

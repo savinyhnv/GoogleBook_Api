@@ -11,13 +11,15 @@ namespace TestTask.Creatio.Core.Contracts
         public HttpStatusCode ResultStatusCode { get;}
         public int ItemsFound { get;}
         public int ItemsLoaded { get;}
+        public int ItemsSaved { get; }
 
-        public GoogleBooksServiceResponse(IHttpResponse<GoogleBooksClientResponse> response)
+        public GoogleBooksServiceResponse(IHttpResponse<GoogleBooksClientResponse> response, int processedBooksCounter)
         {
             IsSuccess = response.Success;
             ResultStatusCode = response.StatusCode;
             ItemsFound = response.Data.TotalItems;
             ItemsLoaded = response.Data.Items.Count;
+            ItemsSaved = processedBooksCounter;
         }
 
     }
