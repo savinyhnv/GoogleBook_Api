@@ -1,4 +1,5 @@
 ﻿using EdenLab.FluentApi.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -36,6 +37,9 @@ namespace TestTask.Creatio.Core.Services
 
         public async Task<IServiceResponse> EnrichDbWithBooksAsync(string searchKeyword)
         {
+            if(string.IsNullOrEmpty(searchKeyword)) 
+                throw new ArgumentNullException($"Can't process search request with null argument{nameof(searchKeyword)}");
+
             var response = await _googleBooksClient.GetBooks(searchKeyword);
             var processedBooksCounter = 0;
 

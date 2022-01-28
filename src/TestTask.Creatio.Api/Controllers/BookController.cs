@@ -1,4 +1,5 @@
 ﻿using EdenLab.Core.Web;
+using System;
 using System.Threading.Tasks;
 using System.Web.Http;
 using TestTask.Creatio.Api.Contracts;
@@ -20,8 +21,16 @@ namespace TestTask.Creatio.Api.Controllers
         [Route("google/enrich")]
         public async Task<IHttpActionResult> EnrichDbWithBooks([FromBody] GetBookRequest request)
         {
-            var result = await _bookService.EnrichDbWithBooksAsync(request.SearchKeyword);            
-            return Ok(result);
+            try
+            {
+                var result = await _bookService.EnrichDbWithBooksAsync(request.SearchKeyword);
+                return Ok(result);
+            }
+            catch(ArgumentNullException ex)
+            {
+                return UnprocessableEntity(ex.Message);
+            }
+            
         }
     }
 }
